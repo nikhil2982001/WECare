@@ -1,0 +1,71 @@
+/* Navbar.css */
+
+.navbar {
+    background-color:darkblue!important;
+    color: white;
+    /* Other common styles for the navbar */
+  }
+  #heading{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  #cat{
+    color: skyblue;
+  }
+ 
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+  }
+  
+  .navbar-list li {
+    display: inline;
+  }
+  
+  .navbar-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  .space{
+    margin:10px 5px 40px 5px;
+    background-color: rgb(187, 212, 235);
+  }
+  button{
+    border-color: white;
+    margin: 5px 0 5px 0;
+    width: max-content;
+    background-color: darkblue;
+  }
+  #expert{
+    background-color: white;
+    color:black ;
+    margin-right:4px;
+    display: inline-block;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+  #expert:hover{
+    background-color: darkblue;
+    color:white;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar-list {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-list li {
+      display: block;
+    }
+  }
+  

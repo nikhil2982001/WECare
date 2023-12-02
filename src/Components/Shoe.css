@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color:white;
+}
+
+.filter-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 20px; 
+ flex: 0 0 30%;
+}
+
+.filter {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#typo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;font-weight: 100;
+  color: lightseagreen;
+  background-color: white;
+  font-weight: 800;
+}
+
+.shoes-list {
+  flex: 0 0 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+  
+}
+#re_set{
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  min-width: min-content;
+}
+.info{
+  margin-bottom: 10px;
+}
+.shoe {
+  /* width: calc(33.33% - 20px); 
+  margin: 0 10px 20px 0; */
+  width: calc(60% - 80px); 
+  margin-bottom: 20px
+}
+
+.shoe img {
+  width: 100%;
+  height: auto;
+}
+
+.shoeName{
+  display: flex;
+  flex-direction: column;
+}
+.shoeRating{
+  display: flex;
+  flex-direction: column;
+}
+.shoePrice{
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination button {
+  cursor: pointer;
+  background-color: rgb(53, 53, 215);
+  color :black;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 1em;
+  margin: 0 5px;
+
+}
+.pagination button:hover{
+  border-color: rgb(57, 14, 97);
+}
+button{
+  background-color: blue;
+  color: antiquewhite;
+  box-shadow: 20px 20px 60px rgba(0, 0, 255, 0.271);
+}
+
