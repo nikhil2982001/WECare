@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import Data from './Data';
 import './Shoe.css';
@@ -94,7 +93,6 @@ const ShoesList = () => {
             <h2>Filters</h2>
             <button id='re_set' onClick={resetFilters}>Reset Filters</button>
             <div>
-      
       <h3>SIZE</h3>
       <p>Selected Size: {selectedSize}</p>
       <input
@@ -107,7 +105,6 @@ const ShoesList = () => {
         value={selectedSize}
         onChange={handleSizeChange}
       />
-      
     </div>
             <div className='shoePrice'> <h3>PRICE</h3>
               {uniqueShoePrice.map(priceOption => (
@@ -194,6 +191,7 @@ const ShoesList = () => {
 };
 
 export default ShoesList;
+
 
 
 
