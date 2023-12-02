@@ -94,7 +94,6 @@ const ShoesList = () => {
             <h2>Filters</h2>
             <button id='re_set' onClick={resetFilters}>Reset Filters</button>
             <div>
-      {/* <label htmlFor="sizeFilter">Select Size: </label> */}
               <h3>SIZE</h3>
               <p>Selected Size: {selectedSize}</p>
       <input
@@ -195,3 +194,4 @@ const ShoesList = () => {
 };
 
 export default ShoesList;
+
