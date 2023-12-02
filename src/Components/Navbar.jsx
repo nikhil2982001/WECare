@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css'; 
-let access = document.getElementsByClassName("popup");
 const Navbar = () => {
   const page = () => {
     alert("This Page is under Construction");
@@ -30,6 +29,7 @@ const Navbar = () => {
     </>
   );
 };
+
 
 export default Navbar;
 
