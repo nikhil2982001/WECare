@@ -1,6 +1,6 @@
 .carousel-container {
-       width: 99%; /* Set the carousel container to full width */
-        max-width: 99%; /* Ensure it doesn't exceed the screen width */
+       width: 99%; 
+        max-width: 99%; 
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -11,12 +11,11 @@
         background-color: aliceblue;
       }
       
-   /* Set a fixed height for the carousel */
+   
       .carousel-container .carousel {
-         height: 400px; /* Adjust the height as per your requirement */
+         height: 400px; 
        }
       
-      /* Styles for individual shoe slides */
        .shoe-slide {
          display: flex;
          flex-direction: column;
@@ -25,10 +24,8 @@
          text-align: center;
       }
       
-      /* Responsive styles for smaller screens */
       @media (max-width: 768px) {
-         /* Adjust the height for smaller screens */
          .carousel-container .carousel {
-          height: 300px; /* Adjust the height for smaller screens */
+          height: 300px; /* 
          }
    }
