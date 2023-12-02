@@ -1,8 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import Data from './Data';
 import './Shoe.css';
-
 const Shoe = ({ name, image, price }) => (
   <div className="parent">
   <div className="shoe">
@@ -79,8 +77,6 @@ const ShoesList = () => {
   useEffect(() => {
     setCurrentPage(1);
   }, [filter, rating, selectedNameFilter, price,selectedSize]);
-
-  // Unique list of shoe names for radio button options
   const uniqueShoeNames = [...new Set(originalShoes.map(shoe => shoe.name))];
   const uniqueShoeRating = [...new Set(originalShoes.map(shoe => shoe.rating))];
   const uniqueShoePrice = [...new Set(originalShoes.map(shoe => shoe.price))];
@@ -189,9 +185,9 @@ const ShoesList = () => {
             )}
           </div>
     </>
-    
   );
 };
 
 export default ShoesList;
+
 
