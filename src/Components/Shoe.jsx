@@ -92,9 +92,11 @@ const ShoesList = () => {
         <div className="filter-sidebar">
           <div className="filter">
             <h2>Filters</h2>
-            <button id='re_set' onClick={resetFilters}>Reset Filters</button><h3>PRICE</h3>
+            <button id='re_set' onClick={resetFilters}>Reset Filters</button>
             <div>
       {/* <label htmlFor="sizeFilter">Select Size: </label> */}
+              <h3>SIZE</h3>
+              <p>Selected Size: {selectedSize}</p>
       <input
         type="range"
         id="sizeFilter"
@@ -105,9 +107,9 @@ const ShoesList = () => {
         value={selectedSize}
         onChange={handleSizeChange}
       />
-      <p>Selected Size: {selectedSize}</p>
+      
     </div>
-            <div className='shoePrice'> 
+            <div className='shoePrice'> <h3>PRICE</h3>
               {uniqueShoePrice.map(priceOption => (
                 <label key={priceOption}>
                   <input
@@ -188,6 +190,7 @@ const ShoesList = () => {
             )}
           </div>
     </>
+    
   );
 };
 
