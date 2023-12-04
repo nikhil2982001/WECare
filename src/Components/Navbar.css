@@ -1,82 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 .navbar {
-    background-color:darkblue!important;
-    color: white;
-    
-  }
-  #heading{
-     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 10px;
-    display:flex;
-    align-items: center;
-  }
-  #cat{
-    color: skyblue;
-  }
+  background-color: darkblue !important;
+  color: white;
+}
+#heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+#cat {
+  color: skyblue;
+}
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
+.navbar-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.space {
+  margin: 10px 5px 40px 5px;
+  background-color: rgb(187, 212, 235);
+}
+button {
+  border-color: white;
+  margin: 5px 0 5px 0;
+  width: max-content;
+  background-color: darkblue;
+  border-radius: 5px;
+}
+.extra {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#expert {
+  background-color: white;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  padding: 14px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid rgb(62, 61, 61);
+}
+#expert:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+#sign a {
+  /* height: 30px;
+  width: 30px; */
+  padding: 5px 3px;
+}
+
+@media (max-width: 768px) {
   .navbar-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around; 
-       align-items: center;
+    flex-direction: column;
     text-align: center;
   }
-  
+
   .navbar-list li {
-    display: inline;
-  }
-  
-  .navbar-list li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
   }
-  .space{
-    margin:10px 5px 40px 5px;
-    background-color: rgb(187, 212, 235);
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
   }
-  button{
-    border-color: white;
-    margin: 5px 0 5px 0;
-    width: max-content;
-    background-color: darkblue;
-    border-radius:5px;
+  .shoes-list {
+    justify-content: center;
   }
-  #expert{
-    background-color: white;
-    color:black ;
-    margin-right:10px;
-    display: inline-block;
-    padding: 14px 16px;
-    cursor: pointer;
-      border-radius:5px;
-      border:1px solid white;
+  .parent {
+    padding: 10px 10px;
   }
-  #expert:hover{
-    background-color: darkblue;
-    color:white;
+  .shoe img {
+    align-self: center;
   }
-  @media (max-width: 768px) {
-    .navbar-list {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .navbar-list li {
-      display: block;
-    }
-  }
-
-
-
-
-
-
-
-  
+}
