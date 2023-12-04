@@ -74,7 +74,7 @@ button {
   padding: 5px 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 823px) {
   .navbar-list {
     flex-direction: column;
     text-align: center;
@@ -84,6 +84,7 @@ button {
     display: block;
   }
 }
+
 
 @media screen and (max-width: 500px) {
   .container {
@@ -99,4 +100,5 @@ button {
     align-self: center;
   }
 }
+
 
