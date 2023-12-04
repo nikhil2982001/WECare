@@ -50,6 +50,10 @@
   display: flex;
   gap:48px;
 }
+.parent{
+    border: 2px solid whitesmoke;  
+  box-shadow: 5px 5px 5px 4px floralwhite;
+}
 
 .shoe img {
   width: 100%;
@@ -116,6 +120,7 @@
    margin-left:80px; 
 }
 }
+
 
 
 
