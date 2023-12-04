@@ -32,7 +32,7 @@ const Navbar = () => {
         <div id="page_"></div>
         <div className='extra'>
           <li><button id="expert"className='popup'onClick={page}>Become an Expert</button></li>
-        <li><button><a href="#signIn"onClick={pager}>Sign In/Register</a></button></li>
+        <li><button id="sign"><a href="#signIn"onClick={pager}>Sign In/Register</a></button></li>
         </div>
       </ul>
     </nav>
@@ -40,6 +40,7 @@ const Navbar = () => {
     </>
   );
 };
+
 
 
 
