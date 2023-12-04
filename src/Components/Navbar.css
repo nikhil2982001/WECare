@@ -17,6 +17,8 @@
     padding: 0;
     display: flex;
     justify-content: space-around; 
+       align-items: center;
+    text-align: center;
   }
   
   .navbar-list li {
@@ -63,6 +65,7 @@
       display: block;
     }
   }
+
 
 
 
