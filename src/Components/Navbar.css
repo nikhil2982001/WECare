@@ -46,6 +46,7 @@
     margin: 5px 0 5px 0;
     width: max-content;
     background-color: darkblue;
+    border-radius:5px;
   }
   #expert{
     background-color: white;
@@ -54,6 +55,8 @@
     display: inline-block;
     padding: 14px 16px;
     cursor: pointer;
+      border-radius:5px;
+      border:1px solid white;
   }
   #expert:hover{
     background-color: darkblue;
@@ -69,6 +72,8 @@
       display: block;
     }
   }
+
+
 
 
 
