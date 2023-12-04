@@ -43,6 +43,7 @@
 }
 .info{
   margin-bottom: 10px;
+  margin-top:75px;
 }
 .shoe {
   width: calc(60% - 80px); 
@@ -119,7 +120,11 @@
   .filter{
    margin-left:80px; 
 }
+  .first-wrapper{
+    width:130%;
+  }
 }
+
 
 
 
