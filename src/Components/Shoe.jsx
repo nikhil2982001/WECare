@@ -110,7 +110,7 @@ const ShoesList = () => {
               {uniqueShoePrice.map(priceOption => (
                 <label key={priceOption}>
                   <input
-                    type="radio"
+                    type="checkbox"
                     name="shoePriceFilter"
                     value={priceOption}
                     checked={price === priceOption}
@@ -125,7 +125,7 @@ const ShoesList = () => {
               {uniqueShoeRating.map(ratingOption => (
                 <label key={ratingOption}>
                   <input
-                    type="radio"
+                    type="checkbox"
                     name="shoeRatingFilter"
                     value={ratingOption}
                     checked={rating === ratingOption}
@@ -139,7 +139,7 @@ const ShoesList = () => {
               {uniqueShoeNames.map(name => (
                 <label key={name}>
                   <input
-                    type="radio"
+                    type="checkbox"
                     name="shoeNameFilter"
                     value={name}
                     checked={selectedNameFilter === name}
@@ -191,6 +191,8 @@ const ShoesList = () => {
 };
 
 export default ShoesList;
+
+
 
 
 
