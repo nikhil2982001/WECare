@@ -9,7 +9,7 @@ const Shoe = ({ name, image, price }) => (
     <div className='info'>
       <h3>{name}</h3>
       <p>Price: ₹{price}</p>
-      <button>View Details</button>
+      <button >View Details</button>
     </div>
   </div>
   </div>
@@ -191,6 +191,7 @@ const ShoesList = () => {
 };
 
 export default ShoesList;
+
 
 
 
