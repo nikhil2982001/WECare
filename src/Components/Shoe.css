@@ -94,11 +94,14 @@
 .pagination button:hover{
   border-color: rgb(57, 14, 97);
 }
-/* button{
+ button{
   background-color: blue;
   color: antiquewhite;
-  box-shadow: 20px 20px 60px rgba(0, 0, 255, 0.271);
-} */
+  box-shadow: 20px 20px 60px whitesmoke;
+}
+
+
+
 
 
 
