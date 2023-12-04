@@ -14,6 +14,8 @@ const Navbar = () => {
         <div id="page_"></div>
          <div id="page_"></div>
         <div id="page_"></div>
+        <div id="page_"></div>
+        <div id="page_"></div>
         
         <li><a href="#home" className='popup'onClick={page}>Home</a></li>
         <li><a href="#categories" id='cat'className='popup'onClick={page}>Categories</a></li>
@@ -26,6 +28,8 @@ const Navbar = () => {
         <div id="page_"></div>
         <div id="page_"></div>
          <div id="page_"></div>
+        <div id="page_"></div>
+        <div id="page_"></div>
         <div className='extra'>
           <li><button id="expert"className='popup'onClick={page}>Become an Expert</button></li>
         <li><button><a href="#signIn"onClick={pager}>Sign In/Register</a></button></li>
@@ -36,6 +40,7 @@ const Navbar = () => {
     </>
   );
 };
+
 
 
 
