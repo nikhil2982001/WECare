@@ -40,6 +40,7 @@
   flex-direction: column;
   max-width: max-content;
   min-width: min-content;
+  padding:10px 20px;
 }
 .info{
   margin-bottom: 10px;
@@ -111,6 +112,7 @@
   box-shadow: 0.1px 0.1px 0 0 white;
    border:1px solid blue;
    width:150%;
+   padding:10px 20px;
 }
 @media (max-width: 768px) {
   .shoe img {
@@ -120,10 +122,10 @@
   .filter{
    margin-left:80px; 
 }
-  .first-wrapper{
-    width:130%;
-  }
+
 }
+
+
 
 
 
