@@ -50,6 +50,7 @@ button {
   display: flex;
   gap: 10px;
   align-items: center;
+  flex-wrap:wrap;
 }
 #expert {
   background-color: white;
@@ -98,3 +99,4 @@ button {
     align-self: center;
   }
 }
+
