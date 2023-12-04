@@ -59,14 +59,20 @@
 .shoeName{
   display: flex;
   flex-direction: column;
+   border: 2px solid white;
+  box-shadow: 0 5px 4px 0 whitesmoke
 }
 .shoeRating{
   display: flex;
   flex-direction: column;
+   border: 2px solid white;
+  box-shadow: 0 5px 4px 0 whitesmoke
 }
 .shoePrice{
   display: flex;
   flex-direction: column;
+   border: 2px solid white;
+  box-shadow: 0 5px 4px 0 whitesmoke
 }
 
 .pagination {
@@ -97,8 +103,11 @@
  button{
   background-color: blue;
   color: antiquewhite;
-  box-shadow: 2px whitesmoke;
+  box-shadow: 2px 2px 0 0 white;
+   border:1px solid blue;
 }
+
+
 
 
 
